@@ -4,17 +4,20 @@ title: HelloEveryone
 date: 2017-08-21 09:17:10
 tags:
 ---
+
 ##前言
  github提供的page，hexo提供的静态博客文档，
-
+如何对如何搭建hexo+github可以查看我第一篇入门文章：http://www.cnblogs.com/chengxs/p/7402174.html
+详细的可以查看hexo博客的演示：https://saucxs.github.io/
+hexo+github博客网站源码(可以clone，运行，看到博客演示。觉得可以给颗星星)：https://github.com/saucxs/hexo-blog-origin.git
+hexo+github上生成的静态文件：https://github.com/saucxs/saucxs.github.io.git
+ <!--more-->
 使用github pages服务搭建博客的好处有：
-
 全是静态文件，访问速度快；
 免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；
 可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；
 数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行；
 博客内容可以轻松打包、转移、发布到其它平台；
- <!--more-->
 
 ##一、github相关设置
 
