@@ -2,6 +2,8 @@
 layout: post
 title: github+hexo搭建自己的博客网站（二）更换主题yilia
 date: 2017-08-26 22:01:23
+comments: true
+categories: 工作
 toc: true
 tags:
     - 前端
@@ -14,7 +16,8 @@ tags:
 
 详细的可以查看hexo博客的演示：https://saucxs.github.io/
 
-可以查看在github上生成的静态文件：https://github.com/saucxs/saucxs.github.io.git，如果觉得可以请给颗星星。
+可以查看在github上生成的静态文件(如果觉得可以请给颗星星)：https://github.com/saucxs/saucxs.github.io.git
+
 
  <!--more-->
 

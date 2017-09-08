@@ -2,6 +2,8 @@
 layout: post
 title: github+hexo搭建自己的博客网站（一）基础入门
 date: 2017-08-24 09:17:10
+comments: true
+categories: 工作
 toc: true
 tags:
     - 前端

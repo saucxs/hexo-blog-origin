@@ -3,6 +3,8 @@ layout: post
 title: Hello World
 date: 2017-08-21 09:17:10
 toc: true
+comments: true
+categories: 生活
 tags:
 	- 测试
 ---
