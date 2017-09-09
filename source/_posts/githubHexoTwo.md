@@ -16,6 +16,8 @@ tags:
 
 详细的可以查看hexo博客的演示：https://saucxs.github.io/
 
+绑定域名可以查看：http://www.chengxinsong.cn
+
 可以查看在github上生成的静态文件(如果觉得可以请给颗星星)：https://github.com/saucxs/saucxs.github.io.git
 
 

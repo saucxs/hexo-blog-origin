@@ -7,17 +7,18 @@ title: 程新松博客网站safeguradEagle
 subtitle: 爱好折腾的码农
 description: 程新松，沈阳航空航天大学，计算机学院，国家发明专利,辽宁省优秀毕业生,大学生退伍士兵,校十佳大学生,国家级大学生创新创业项目，5GWN最佳论文奖
 author: XinsongCheng
-keywords: "前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验"
+keywords: "程新松，沈阳航空航天大学，计算机学院，国家发明专利,辽宁省优秀毕业生,大学生退伍士兵,校十佳大学生,国家级大学生创新创业项目，5GWN最佳论文奖，前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验"
 email: 15566151641@163.com
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.chengxinsong.cn
 root: /
 #permalink: :year/:month/:day/:title/
-permalink: :posts/:category/:year-:month-:day-:title.html
+#permalink: :posts/:category/:year-:month-:day-:title.html
+permalink: :title.html
 permalink_defaults:
 
 # Directory
@@ -28,7 +29,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -121,9 +122,21 @@ jsonContent:
       categories: false
       tags: true
 
+baidu_url_submit:
+  count: 100                    # 提交最新的一个链接
+  host: www.chengxinsong.cn     # 在百度站长平台中注册的域名
+  token: NfwJni5RgUfpyWnX       # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt          # 文本文档的地址， 新链接会保存在此文本文档里
+
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repository: git@github.com:saucxs/saucxs.github.io.git
   branch: master
+  -type: baidu_url_submitter

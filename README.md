@@ -2,8 +2,13 @@
 hexo+github搭建的博客，原始项目代码，可以clone，运行
 
 如何对如何搭建hexo+github可以查看我第一篇入门文章：http://www.cnblogs.com/chengxs/p/7402174.html
+
 详细的可以查看hexo博客的演示：https://saucxs.github.io/
+
+绑定了域名： http://www.chengxinsong.cn
+
 hexo+github博客网站源码(可以clone，运行，看到博客演示。觉得可以给颗星星)：https://github.com/saucxs/hexo-blog-origin.git
+
 hexo+github上生成的静态文件：https://github.com/saucxs/saucxs.github.io.git
 
 步骤：
