@@ -1,15 +1,28 @@
 # hexo-blog-origin
-hexo+github搭建的博客，原始项目代码，可以clone，运行
+hexo+github搭建的博客，原始项目代码，clone，运行
 
 如何对如何搭建hexo+github可以查看我第一篇入门文章：http://www.cnblogs.com/chengxs/p/7402174.html
 
-详细的可以查看hexo博客的演示：https://saucxs.github.io/
-
 绑定了域名： http://www.chengxinsong.cn
 
-hexo+github博客网站源码(可以clone，运行，看到博客演示。觉得可以给颗星星)：https://github.com/saucxs/hexo-blog-origin.git
+注意：如果出现hexo不存在这个指令，请先全局安装hexo-cli，
 
-hexo+github上生成的静态文件：https://github.com/saucxs/saucxs.github.io.git
+```
+npm install hexo-cli -g
+```
+
+## 线上地址
+http://www.chengxinsong.cn
+或者
+https://saucxs.github.io/
+
+
+
+## 源码
+https://github.com/saucxs/hexo-blog-origin
+
+
+## 运行
 
 步骤：
 1、git clone
@@ -36,4 +49,6 @@ localhost://4000
 ``` bash
 git d
 ``` 
-就可以看到https://saucxs.github.io/
+
+## 最后
+打个广告，如果觉得对你有帮助，而且觉得可以，欢迎fork和start，有疑问的可以contact me，saucxs@163.com，或者提issue
